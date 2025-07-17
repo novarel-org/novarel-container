@@ -1,0 +1,21 @@
+# Ensure consistent line endings
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Treat binary files as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
+
+# Lock files - don't try to merge
+pnpm-lock.yaml merge=ours
+
+# GitHub linguist tweaks
+*.d.ts linguist-generated
+*.snap linguist-generated
