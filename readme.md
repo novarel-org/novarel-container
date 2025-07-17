@@ -2,7 +2,7 @@
 
 ## Advanced Dependency Injection Container for the Novarel Framework
 
-A powerful, flexible, and production-ready DI container inspired by Laravel’s service container, built with TypeScript decorators and `reflect-metadata`.
+A powerful, flexible, and production-ready DI container, built with TypeScript decorators and `reflect-metadata`.
 
 ---
 
