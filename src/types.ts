@@ -22,7 +22,7 @@ export type Token = string | symbol;
  */
 export type Factory<T = unknown> =
     | { prototype: T }
-    | (new (...args: any[]) => T)
+    | (new (...args: unknown[]) => T)
     | (() => T)
     | T;
 
